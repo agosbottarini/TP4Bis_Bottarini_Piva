@@ -19,6 +19,12 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult DetallePais(string nombrePais)
+    {
+        ViewBag.Pais = Info.DetallePais(nombrePais);
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();
