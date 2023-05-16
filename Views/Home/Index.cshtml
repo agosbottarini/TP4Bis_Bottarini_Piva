@@ -2,9 +2,9 @@
     ViewData["Title"] = "Home Page";
 }
 
-<tr>
+<tr> 
  @foreach (Pais itemPais in ViewBag.ListaPaises)
     {
-        <td> <a href= '@Url.Action("DetallePais")'> <img src='/img/@itemPais.ImgBandera' style="width 210" height="210"> </a> </td>
+        <td> <a href= '@Url.Action("DetallePais")'> <img src='/img/@itemPais.ImgBandera' target="_blank" style="width 190" height="190"> </a></td> <br><br>
     }
 </tr>
