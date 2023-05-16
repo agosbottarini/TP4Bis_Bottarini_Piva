@@ -5,11 +5,11 @@ public static class Info
     public static void  IniciarLista()
     {
         
-        ListaPaises.Add(new Pais("Argentina", imgBandera, 1000, , "Ushuaia")) ;
-        ListaPaises.Add(new Pais("Brasil", imgBandera, 1200, fechaIndependencia, "Cataratas"));
-        ListaPaises.Add(new Pais("Chile", imgBandera, 800, fechaIndependencia, "Cordillera de los Andes"));
-        ListaPaises.Add(new Pais("Uruguay", imgBandera, 900, fechaIndependencia, "Montevideo"));
-        ListaPaises.Add(new Pais("Bolivia", imgBandera, 500, fechaIndependencia, "La Paz"));
+        ListaPaises.Add(new Pais("Argentina", "argentina.jpg", 1000, new DateTime (9/7/1816) , "Ushuaia")) ;
+        ListaPaises.Add(new Pais("Brasil", "brasil.jpg", 1200, new DateTime (7/9/1822), "Cataratas"));
+        ListaPaises.Add(new Pais("Chile", "chile.jpg", 800, new DateTime (12/2/1818), "Cordillera de los Andes"));
+        ListaPaises.Add(new Pais("Uruguay", "uruguay.jpg", 900, new DateTime (25/8/1825), "Montevideo"));
+        ListaPaises.Add(new Pais("Bolivia", "bolivia.jpg", 500, new DateTime (6/8/1825), "La Paz"));
 
     }
 
