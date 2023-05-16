@@ -10,6 +10,7 @@ public static class Info
         ListaPaises.Add(new Pais("Chile", imgBandera, 800, fechaIndependencia, "Cordillera de los Andes"));
         ListaPaises.Add(new Pais("Uruguay", imgBandera, 900, fechaIndependencia, "Montevideo"));
         ListaPaises.Add(new Pais("Bolivia", imgBandera, 500, fechaIndependencia, "La Paz"));
+
     }
 
     public static List<Pais> ListarPaises()
