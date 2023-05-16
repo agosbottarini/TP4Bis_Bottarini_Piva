@@ -2,7 +2,9 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<tr>
+ @foreach (Pais itemPais in ViewBag.ListaPaises)
+    {
+        <td> <a href= '@Url.Action("DetallePais")'> <img src='/img/@itemPais.ImgBandera' style="width 210" height="210"> </a> </td>
+    }
+</tr>
