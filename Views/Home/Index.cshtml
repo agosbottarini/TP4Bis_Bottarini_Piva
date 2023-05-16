@@ -5,6 +5,6 @@
 <tr> 
  @foreach (Pais itemPais in ViewBag.ListaPaises)
     {
-        <td> <a href= '@Url.Action("DetallePais")'> <img src='/img/@itemPais.ImgBandera' target="_blank" style="width 190" height="190"> </a></td> <br><br>
+        <td> <a href= '@Url.Action("DetallePais", new {nombrePais = itemPais.Nombre})' target="_blank"> <img src='/img/@itemPais.ImgBandera' style="width 190" height="190"> </a></td> <br><br>
     }
 </tr>

@@ -18,7 +18,6 @@ public class HomeController : Controller
         ViewBag.ListaPaises = Info.ListarPaises();
         return View();
     }
-
     public IActionResult Privacy()
     {
         return View();
