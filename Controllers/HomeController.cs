@@ -18,6 +18,7 @@ public class HomeController : Controller
         ViewBag.ListaPaises = Info.ListarPaises();
         return View();
     }
+<<<<<<< HEAD
 
     public IActionResult DetallePais(string nombrePais)
     {
@@ -25,6 +26,8 @@ public class HomeController : Controller
         return View();
     }
 
+=======
+>>>>>>> cdca260f0931d419ebd0e94a2ed34495f26103f9
     public IActionResult Privacy()
     {
         return View();
