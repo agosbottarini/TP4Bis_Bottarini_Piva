@@ -5,7 +5,7 @@ public static class Info
     public static void  IniciarLista()
     {
         
-        ListaPaises.Add(new Pais("Argentina", imgBandera, poblacion, fechaIndependencia, atractivosTuristicos)) ;
+        ListaPaises.Add(new Pais("Argentina", imgBandera, poblacion, fechaIndependencia, atractivosTuristicos));
         ListaPaises.Add(new Pais(Brasil, imgBandera, poblacion, fechaIndependencia, atractivosTuristicos));
         ListaPaises.Add(new Pais(nombre, imgBandera, poblacion, fechaIndependencia, atractivosTuristicos));
         ListaPaises.Add(new Pais(nombre, imgBandera, poblacion, fechaIndependencia, atractivosTuristicos));
